@@ -1,0 +1,48 @@
+.game__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 5rem auto;
+
+  &-box {
+    font-size: 10rem;
+    flex: 33%;
+    min-height: 25rem;
+    text-align: center;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--0 {
+      border-top: none;
+      border-left: none;
+    }
+    &--1 {
+      border-top: none;
+    }
+    &--2 {
+      border-top: none;
+      border-right: none;
+    }
+    &--3 {
+      border-left: none;
+    }
+    &--4 {
+    }
+    &--5 {
+      border-right: none;
+    }
+    &--6 {
+      border-left: none;
+      border-bottom: none;
+    }
+    &--7 {
+      border-bottom: none;
+    }
+    &--8 {
+      border-right: none;
+      border-bottom: none;
+    }
+  }
+}
